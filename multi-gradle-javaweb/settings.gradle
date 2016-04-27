@@ -1,0 +1,3 @@
+rootProject.name = 'multi-gradle-javaweb'
+include 'common'
+include 'webapp'
