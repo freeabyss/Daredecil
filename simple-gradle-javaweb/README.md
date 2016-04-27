@@ -1,5 +1,6 @@
 # 使用Gradle构建最简单的Java Web项目
->该项目仅包含Servlet，不包括其他任何框架
+> 该项目仅包含Servlet，不包括其他任何框架
+> 该项目仅包含一个模块
 
 # 先决条件
 > Gradle 2.11
@@ -59,4 +60,4 @@ providedCompile 'javax.servlet:servlet-api:3.0-alpha-1'
 > 不过我本地有下载好的依赖依然存在这种问题,暂时没有很好的解决方案，我一般重启idea就好了.
 > 或者尝试打开Gradle project视图,然后点击同步按钮.
 
-
+__项目演示:__[https://github.com/freeabyss/Daredecil/tree/master/simple-gradle-javaweb](https://github.com/freeabyss/Daredecil/tree/master/simple-gradle-javaweb)
