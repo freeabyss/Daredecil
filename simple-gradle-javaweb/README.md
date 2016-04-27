@@ -29,7 +29,7 @@ providedCompile 'javax.servlet:servlet-api:3.0-alpha-1'
 > 然后就是添加一个简单的servlet类进行测试，添加方法详见任何一个servlet教程。
 
 # 部署到tomcat
-> 点击idea右上角的图标  
+> 点击idea右上角的图标
 
 ![](statics/step5.png)
 点击左上角的＋号，选中Tomcat Server->Local
@@ -56,7 +56,7 @@ providedCompile 'javax.servlet:servlet-api:3.0-alpha-1'
  
 ## 无法在类中引用依赖包
 > 我一开始遇到几次这种问题，经测试发现是gradle无法连接maven库导致的。  
-> 不过我本地有下载好的依赖依然存在这种问题。
-> 暂时没有很好的解决方案，我一般重启idea就好了
+> 不过我本地有下载好的依赖依然存在这种问题,暂时没有很好的解决方案，我一般重启idea就好了.
+> 或者尝试打开Gradle project视图,然后点击同步按钮.
 
 
