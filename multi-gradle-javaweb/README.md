@@ -54,7 +54,7 @@ subprojects {
 ```
 如果common模块和Webapp模块下有settings.gradle文件,请删除.
 
-__项目演示:__[https://github.com/freeabyss/Daredecil/tree/master/simple-gradle-javaweb](https://github.com/freeabyss/Daredecil/tree/master/simple-gradle-javaweb)
+__项目演示:__[https://github.com/freeabyss/Daredecil/tree/master/multi-gradle-javaweb](https://github.com/freeabyss/Daredecil/tree/master/multi-gradle-javaweb)
 
 
 
