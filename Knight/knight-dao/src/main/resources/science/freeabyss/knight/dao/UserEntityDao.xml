@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="science.freeabyss.knight.dao.UserEntityDao">
+
+    <select id="queryAll" resultMap="UserEntityMap">
+        SELECT id, username, password, iphone, address FROM userEntity
+    </select>
+
+    <resultMap id="UserEntityMap" type="UserEntity">
+        <id property="id" column="id"/>
+        <result property="username" column="username" />
+        <result property="password" column="password" />
+        <result property="iphone" column="iphone" />
+        <result property="address" column="address" />
+    </resultMap>
+</mapper>

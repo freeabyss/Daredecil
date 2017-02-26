@@ -12,7 +12,7 @@
           <element id="dir-copy" path="$PROJECT_DIR$/build/resources/main" />
         </element>
         <element id="directory" name="lib">
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.servlet/servlet-api/3.0-alpha-1/7b491267924e8c81f4f9378caba0ee03423948ca/servlet-api-3.0-alpha-1.jar" />
+          <element id="library" level="project" name="Gradle: javax.servlet:servlet-api:3.0-alpha-1" />
         </element>
       </element>
       <element id="directory" name="META-INF">
