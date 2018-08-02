@@ -14,6 +14,12 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @RequestMapping("/admin")
 public class HomeController {
 
+    @RequestMapping("/getWordsCount")
+    @ResponseBody
+    public String getWordsCount() {
+        return "ddddd";
+    }
+
 
     @RequestMapping("/home")
     @ResponseBody
