@@ -2,7 +2,7 @@ subprojects {
     apply plugin: 'idea'
     apply plugin: 'java'
 
-    group = 'org.tmxk.example'
+    group = 'science.freeabyss.template'
     version = '1.0-SNAPSHOT'
 
     sourceCompatibility = 1.8
